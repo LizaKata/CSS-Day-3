@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 62.5% is like 10px */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  color: #555;
+  overflow-x: hidden;
+  border: 2;
+}
+
+/* Basic setup for container */
+
+.container {
+  margin: 2rem;
+  width: 30rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.line-flex {
+  display: flex;
+  gap: 5rem;
+  justify-content: right;
+}
+
+/* Header */
+
+.header-info h1 {
+  font-size: 3rem;
+}
+
+.header-info p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Thick lines */
+.thickest {
+  border: 0.5rem solid black;
+}
+
+.middle-thickness {
+  border: 0.2rem solid black;
+}
+
+/* Column organization */
+.column-1 {
+  justify-content: left;
+  flex-basis: 18rem;
+}
+
+.column-2 {
+  align-self: right;
+  flex-basis: 6rem;
+}
+
+.column-3 {
+  align-self: right;
+  flex-basis: 6rem;
+}
+
+.line-1 {
+  font-size: 0.8rem;
+}
+
+.line-2 {
+  font-size: 1.2rem;
+}
+
+.line-3 {
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.daily-value {
+  align-self: flex-end;
+}
+
+/* Trying flexbox layout */
